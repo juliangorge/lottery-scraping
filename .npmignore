@@ -1,16 +1,33 @@
-.idea
-node_modules
-src
+# Development directories
+.idea/
+node_modules/
+src/
+coverage/
+.github/
+
+# Config files
 tsconfig.json
-package-lock.json
 jest.config.js
-.npmignore
-.gitignore
-*.tgz
-coverage
-.github
-.prettierrc
-.prettierignore
+jest.config.cjs
+eslint.config.mjs
 .eslintrc.cjs
 .eslintignore
-jest.config.cjs
+.prettierrc
+.prettierignore
+.husky/
+
+# Lock files and artifacts
+package-lock.json
+*.tgz
+
+# Git files
+.gitignore
+
+# NPM files
+.npmignore
+
+# Explicitly include these files
+!dist/
+!package.json
+!README.md
+!LICENSE
