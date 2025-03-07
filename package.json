@@ -1,9 +1,9 @@
 {
-  "name": "lottery",
+  "name": "lottery-scraping",
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juliangorge/lottery.git"
+    "url": "git+https://github.com/juliangorge/lottery-scraping.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
