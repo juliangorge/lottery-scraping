@@ -1,0 +1,27 @@
+- name: Approved
+  description: Ready to merge
+  color: 0E8A16
+- name: Awaiting changes
+  description: Changes were requested and have not yet been implemented.
+  color: 2F1B8C
+- name: Awaiting review
+  description: The PR is waiting to be reviewed.
+  color: FBCA04
+- name: Change & Merge
+  description: A minor change that does not require review should be introduced before merging the PR.
+  color: 39681F
+- name: Changes implemented
+  description: The requested changes have been implemented.
+  color: D42DC3
+- name: In progress
+  description: The PR is not ready for review.
+  color: BFD4F2
+- name: Release
+  description: Used for release branches.
+  color: D93F0B
+- name: Dependencies
+  description: The PR is waiting for dependencies to be resolved.
+  color: 685886
+- name: CI/CD
+  description: The PR is waiting for CI/CD to complete.
+  color: 5FDCE3

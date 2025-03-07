@@ -1,0 +1,29 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "Dependencies"
+    commit-message:
+      prefix: "fix"
+      prefix-development: "chore"
+      include: "scope"
+    versioning-strategy: "increase"
+    assignees:
+      - juliangorge
+    reviewers:
+      - juliangorge
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "Dependencies"
+      - "CI/CD"
+    assignees:
+      - juliangorge
+    reviewers:
+      - juliangorge
