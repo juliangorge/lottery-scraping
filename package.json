@@ -41,10 +41,10 @@
     "release": "npm version patch && git push && git push --tags && gh release create $(git describe --tags --abbrev=0) --generate-notes"
   },
   "devDependencies": {
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^9.24.0",
     "@types/jest": "^29.5.13",
     "esbuild": "^0.25.2",
-    "eslint": "^9.23.0",
+    "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.1",
     "globals": "^16.0.0",
     "husky": "^9.1.6",
@@ -55,7 +55,7 @@
     "prettier": "3.5.3",
     "ts-jest": "^29.3.1",
     "tsx": "^4.19.1",
-    "typescript": "^5.6.3",
+    "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.1"
   },
   "keywords": [
